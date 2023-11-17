@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<form>
+    <label for="fullName">ПІБ:</label>
+    <input type="text" id="fullName" placeholder="ТТТТТТ Т.Т." required>
+
+    <label for="faculty">Факультет:</label>
+    <input type="text" id="faculty" placeholder="ТТТТТ" required>
+
+    <label for="birthday">Дата народження:</label>
+    <input type="text" id="birthday" placeholder="ЧЧ.ЧЧ.ЧЧЧЧ" required>
+
+    <label for="address">Адреса:</label>
+    <input type="text" id="address" placeholder="м. ЧЧЧЧЧЧ" required>
+
+    <label for="email">E-mail:</label>
+    <input type="text" id="email" placeholder="тттттт@ттттт.com" required>
+
+    <button type="button" onclick="validateForm()">Перевірити</button>
+</form>
+
+<table id="colorTable"></table>
+<input type="color" id="colorPicker">
+
+<script src="./js/script.js"></script>
+</body>
+</html>
